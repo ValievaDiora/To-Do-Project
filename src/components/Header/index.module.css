@@ -1,0 +1,7 @@
+.mainDiv {
+  height: 1000px;
+  width: 100%;
+  background: radial-gradient(circle, rgb(255, 208, 242), transparent);
+  display: inline-flex;
+  align-items: center;
+}

@@ -1,0 +1,104 @@
+.mainDiv {
+  height: 695px;
+  width: 100%;
+  background: radial-gradient(circle, rgb(255, 176, 233), transparent);
+}
+
+.needToInline {
+  display: inline-flex;
+}
+
+.logoDiv {
+  display: flex;
+  margin-left: 100px;
+  cursor: pointer;
+  height: 100px;
+  align-items: center;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+h1 {
+  font-weight: 800;
+  transition: 0.7s;
+}
+
+.navBarDiv {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 300px;
+  align-items: center;
+  height: 100px;
+  width: 800px;
+  font-weight: 600;
+  color: rgb(94, 93, 93);
+}
+
+p {
+  transition: 0.7s;
+  cursor: pointer;
+}
+
+h1:hover,
+p:hover {
+  color: rgb(0, 0, 80);
+}
+
+.dateDiv {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.date {
+  font-size: 70px;
+  font-weight: 800;
+  color: rgb(0, 0, 80);
+}
+
+.time {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 280px;
+  color: rgb(0, 0, 80);
+}
+
+.addToDo {
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 400px;
+  box-shadow: 5px 5px 15px 3px rgb(255, 255, 255);
+  padding: 10px;
+  padding-right: 40px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.button_inside {
+  position: absolute;
+  top: 50%;
+  right: 5px; /* Расстояние от правого края */
+  transform: translateY(-50%);
+  border: none;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+  font-weight: 700;
+  color: rgb(0, 0, 80);
+  background-color: rgb(253, 255, 114);
+}
